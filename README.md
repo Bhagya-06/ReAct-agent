@@ -2,6 +2,8 @@
 
 A full-stack **ReAct (Reason + Act)** AI agent that streams its internal reasoning loop — Thought, Action, Observation, and Final Answer — to a live web UI in real time.
 
+Link 🔗: https://re-act-web-search-agent--bhagyabvtht.replit.app/
+
 ---
 
 ## What It Does
@@ -194,9 +196,3 @@ The core agent logic is intentionally kept separate and should not be modified:
 - `react_agent/main.py` — standalone CLI entry point
 
 The `run_agent.py` bridge (reads stdin, writes stdout) is the only integration point with Node.js.
-
----
-
-## License
-
-MIT
